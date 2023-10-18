@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><h1 style="color: crimson;"><b>Online Admission Form</b></h1></center>
+    <center><form style="background-color: cornflowerblue;">
+<table><tr> <td>Username*:<input type="text" name="Username" placeholder="Ali" required> </td></tr> <br>
+    <tr><td>Password: <input type="text" name="Password" placeholder="123..."> </td></tr><br>
+    <tr><th>Gender*: male<input type="radio" name="male"> female<input type="radio" name="female"></th></tr>
+    <tr><td>D/O/B: <input type="date" name="date" placeholder="01/03/2023"> </td></tr><br>
+    <tr> <td>Contact no: <input type="tel" placeholder="country code + remaining no"> </td></tr><br>
+    <tr> <td>Guardian Name: <input type="text" name="Guardian'sname" ></td></tr><tr><td>Previous Grade <input type="text" name="Previous class grade" placeholder="A+,B+,C+...."> </td> </tr> <br>
+    <tr><td>Email: <input type="email" name="Email" placeholder="abc@gmail.com"></td></tr><br><tr><td> <a href="./uet.html"> <button>submit</button> </a></td></tr> <br><tr><td><b>reset: <input type="reset" name="Reset" style="background-color: darkturquoise;"></b></td></tr>
+</table>
+</form> </center>
+</body>
+</html> 
